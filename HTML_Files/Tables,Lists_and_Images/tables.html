@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table for employees</title>
+    <link rel="stylesheet" href="tables.css">
+</head>
+<body>
+    <table> 
+        <caption>Employee Details</caption>
+        <thead>
+          <tr> 
+            <th>name</th>
+            <th>designation</th>
+            <th>fav. lang.</th> 
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Hrrish </td>
+            <td> Programmer </td>
+            <td> Rust </td>
+          </tr> 
+          
+          <tr> 
+            <td colspan="2">Ram</td>
+            <td rowspan="2">Swift</td>
+          </tr>
+
+          <tr>
+            <td colspan="2">Shyam</td>
+          </tr>
+
+          <tfoot>
+           <tr>
+            <td colspan="2">Trikram</td>
+            <td>Go</td>
+           </tr>
+          </tfoot>
+        </tbody>
+    </table>
+    
+</body>
+</html>

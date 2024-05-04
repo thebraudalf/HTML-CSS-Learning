@@ -1,0 +1,1 @@
+alert("This message is good for you")
