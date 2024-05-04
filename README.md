@@ -1,2 +1,3 @@
-# HTML-CSS-Learning
-Here is my learnings of about HTML and CSS.
+# HTML-Learning
+Here is my learning of HTML.
+It will also help you to as a quick reference for html tags.
